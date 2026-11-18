@@ -239,3 +239,77 @@ nav a:hover {
 .article-body a:hover {
     text-decoration: underline;
 }
+/* Newsletter Section */
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 60px 0;
+}
+
+.newsletter .container {
+    max-width: 600px;
+    text-align: center;
+}
+
+.newsletter h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter .form-group {
+    flex: 1;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter .btn:hover {
+    background-color: #434190;
+}
+
+.newsletter .message {
+    margin-top: 20px;
+    font-size: 16px;
+}
+/* Footer Section */
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
